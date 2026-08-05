@@ -12,7 +12,7 @@ def lambda_handler(event, context):
     return {
         "statusCode": 200,
         "body": json.dumps({
-            "message": "Docker Lambda Executed Successfullyi",
+            "message": "Docker Lambda Executed Successfullyiiiii",
             "time": str(datetime.now())
         })
     }
